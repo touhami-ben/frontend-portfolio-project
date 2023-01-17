@@ -15,15 +15,20 @@ fetch(`${BASE_URL}/${name}`)
 .then((people) => {
 
     console.log(people)
-    const films = people.films;
-    const name = people.name;
+    // const films = people.films;
+    // const name = people.name;
     
     const article = document.createElement('article');
-    article.innerHTML = `< a href="${films}/>
-    <h2>${name} has been in ${films}`
+    // article.innerHTML = `< a href="${films}/>
+    // <h2>${name} has been in ${films}`
+    const a = document.createElement("a");
+    a.addEventListener("a", (event)=> {
+        event.preventDefault();
+        event.target.people.films;
+    
     document.querySelector(".people").append(article);
 
-    
+    })
     
 
 })

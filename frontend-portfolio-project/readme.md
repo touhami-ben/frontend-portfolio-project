@@ -9,6 +9,8 @@ in this project im gonna extract people in star wars universe and display all fi
 - must include one or more .js files that are linked to one more page.
 - the project should have a coherent theme and narrative.
 - the project should be deployed to the web.
+link: https://github.com/touhami-ben/frontend-portfolio-project
+     https://brilliant-cucurucho-e9e868.netlify.app/   
 ## Instuctions 
 
 ### landing page
